@@ -1,0 +1,210 @@
+
+@import url(@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+);
+* {
+    font-family: 'Montserrat';
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+section.top-page{
+    background: url('../Img/voyage-aventure-bagages.jpg');
+    background-size: cover;
+    height: 300vh;
+    padding: 0;
+    font-weight: 100px;
+
+
+}
+
+/* page de bienvenue */
+
+
+
+.big-title{
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    padding: 50px 80px;
+    font-weight: 100px;
+    
+
+}
+
+header.header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 50;
+    height: 100px;
+   
+
+}
+
+header.header img{
+    width: 150px;
+}
+/* menu de navigation */
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 1100px;
+    margin-left: 30px;
+    
+    
+}
+
+nav.nav li{
+    color: rgb(12, 27, 242);
+    
+    
+
+}
+
+/* bests items */
+
+.section-title{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.section-title::before{
+
+}
+
+.best-services{
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bests-items{
+    margin: 50px;
+    color: rgb(73, 73, 125);
+}
+
+
+.service-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+    color:
+}
+
+.service1 {
+    background-image: url(../Img/tourisme.png);
+}
+
+.service2 {
+    background-image: url(../Img/etude.jpg);
+}
+
+.service3 {
+    background-image: url(../Img/vaccances.jpg);
+}
+
+.service-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.service-name {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 2px;
+    color: rgb(73, 73, 125);
+}
+
+nav.contactez-nous{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* pieds de pges */
+
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #0000;
+    width: 100%;
+    background: white;
+    color: rgb(73, 73, 125);
+}
+
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100;
+    
+}
+
+/* contact */
+
+.bloc{
+    width: 20%;
+    margin: 0 30px;
+
+}
+
+.footer-reseaux h3
+.footer-periodes h3
+.footer-emplcements h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-contact p{
+    padding: 5px 0;
+}
+
+/* reseaux */
+
+.list-reseaux,
+.list-periodes,
+.list-emplacements {
+    list-style-type: none;
+}
+
+.list-reseaux li{
+    padding: 2px 0;
+}
+
+#scene {
+    height: 300px;
+    width: 600px;
+}
+.big-title span {
+    display: inline-block;
+    overflow: hidden;
+}
+.big-title span span     {
+    animation:big-titleReveal .7s both;
+   
+}
+
+@keyframes big-titleReveal {
+    from{
+        opacity:0;
+        transform: translate(100%);
+    }
+    to{
+        opacity: 1;
+        transform:0;
+    }
+    
+}
